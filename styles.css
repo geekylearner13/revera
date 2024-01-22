@@ -1,0 +1,299 @@
+@font-face {
+    font-family: naughtyMonster;
+    src: url(naughty_monster/NaughtyMonster.ttf);
+}
+body{
+    font-family: Fredoka;
+    font-weight: 600;
+    text-align: center;
+    
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: Fredoka;    
+}
+p{
+    color: #8f8f8f;
+    font-size: Fredoka;
+    font-weight: 600;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+.fs-icon{
+    background-blend-mode:screen ;
+    margin-bottom: 10px;
+}
+.img{
+    background-blend-mode: screen;
+}
+.fest-name{
+    font-family: naughtyMonster;
+    font-weight: 800;
+    font-size: 5.5rem;
+    width: 10%;
+    letter-spacing: 10px;
+    padding-top: 15px;
+}
+.event-banner{
+    width: 80%;
+    padding: 3% 5%;
+}
+.merchandise-banner{
+    width: 80%;
+    padding: 3% 5%;
+}
+.art-culture-logo{
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    margin-left: 3%;
+}
+.detail-icon{
+    padding-right: 5px;
+}
+
+
+
+
+/* Headings */
+.big-heading{
+    font-family: Fredoka;
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.section-heading{
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+/* Sections */
+.coloured-section{
+    background-image: linear-gradient(to right,#332e07, #250f4e);
+    color: #fff;
+
+}
+.white-section{
+    background-color: #fff;
+
+}
+/* Flat-Icon */
+.flaticon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.flaticon:hover{
+    color: #ff4c68;
+}
+
+/* Navigation-Bar */
+.navbar{
+    padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "Fredoka";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-size: naughtyMonster;
+    font-weight: 300;
+}
+
+/* Title */
+
+#title{
+    
+    text-align: left;
+}
+#title.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+/* Features */
+#features{
+    padding: 7% 15%;
+    padding: 5%;
+}
+.feature-box{
+    text-align: center;
+}
+.feature-title{
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+.features{
+    width: 55%;
+    margin-left: 25%;
+    color:#8f8f8f;
+    font-family: 'naughtyMonster', sans-serif;
+    
+}
+.first-box{
+    width:300px;
+    height:300px;
+    border-style: solid;
+    border-color:#f6f5f4;
+    background-color:#f6f5f4;
+    margin:30px;
+    border-radius:15px;
+}
+.first-box:hover{
+    background-color:#fff;
+}
+.second-box{
+    width:300px;
+    height:300px;
+    border-style: solid;
+    border-color:#f6f5f4;
+    background-color:#f6f5f4;
+    margin:30px;
+    border-radius:15px;
+}
+.second-box:hover{
+    background-color:#fff;
+}
+.third-box{
+    width:300px;
+    height:300px;
+    border-style: solid;
+    border-color:#f6f5f4;
+    background-color:#f6f5f4;
+    margin:30px;
+    border-radius:15px;
+}
+.third-box:hover{
+    background-color:#fff;
+}
+#press{
+    background-image: linear-gradient(to right,rgb(98, 19, 98), rgb(64, 3, 3));
+}
+
+/* Download Button */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Navigation-Image */
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    right: 30%;
+}    
+/* Testimonial Section */
+#testimonials{
+    text-align: center;
+    background-image: linear-gradient(to right,rgb(98, 19, 98), rgb(64, 3, 3));
+    color: #fff;
+}
+.testimonial-text{
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.price-title{
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+.price-text{
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.event-column{
+    padding: 3% 2%;
+}
+.basic{
+    margin-top: 35px;
+}
+@media (max-width:1215px){
+    #title{
+        text-align: center;
+    }
+    
+    .title-image{
+        transform: rotate(0);
+    }
+}
+/* cta */
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+.cta-h3{
+    font-family: naughtyMonster;
+    font-weight: 800;
+    letter-spacing: 3px;
+
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+/* Footer */
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+    background-image: linear-gradient(to right,#332e07, #250f4e);
+
+}
+.footer-icon{
+    margin: 20px 10px;
+    color: #fff;
+}
+.footer-text{
+    color:#8f8f8f;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
+}
+/* Merchandise */
+#merchandise{
+    padding: 100px;
+    text-align: center;
+}
+.Merchandise-icon{
+    padding: 3%;
+    height: 295px;
+    width: 295px;
+}
+
+/* FAQ */
+#faq{
+    padding: 50px 100px 100px 100px;
+    text-align: center;
+}
+.faq-ans{
+    font-family: Fredoka;
+    font-weight: 400;
+}
+
