@@ -297,3 +297,25 @@ p{
     font-weight: 400;
 }
 
+/* Gallery */
+.gallery-banner{
+    width: 80%;
+    padding: 0% 5%;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 80px;
+    width: 80px;
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.gallery-img{
+    height: 700px;
+    width: 1024px;
+}
+
